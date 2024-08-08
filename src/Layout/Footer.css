@@ -1,0 +1,17 @@
+/* Footer.css */
+
+.navbar-brand {
+  font-family: Arial, sans-serif; /* Example font family */
+  color: white; /* Example text color */
+}
+
+.bg-body-tertiary {
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(10px); /* Blur effect */
+}
+
+.navbar-brand {
+  font-size: 1rem; /* Example font size */
+}
+
+/* Additional styling if needed */

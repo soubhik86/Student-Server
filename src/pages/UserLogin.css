@@ -1,0 +1,84 @@
+/* UserLogin.css */
+
+body {
+  background-image: url('https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.form-container {
+  width: 500px; /* Adjusted width */
+  height: 400px; /* Adjusted height */
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.6); /* Transparent background with 60% opacity */
+  backdrop-filter: blur(10px); /* Blur effect */
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 5px;
+  color: #333; /* Adjust label color */
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #28a745;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #218838;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.register-link button {
+  padding: 10px 15px;
+  color: #007bff;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.register-link button:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+/* Header.css */
+
+.header-container {
+  background-color: #343a40; /* Dark background color */
+  padding: 10px 0; /* Padding top and bottom */
+}
+
+.navbar {
+  background-color: #343a40 !important; /* Override default background color */
+}
+
+.navbar-brand {
+  color: #ffffff; /* Navbar brand text color */
+  font-weight: bold; /* Navbar brand text bold */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Navbar links text color */
+  margin-right: 10px; /* Right margin between links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff; /* Hover color for navbar links */
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffffff; /* Active link color */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* Color of the navbar toggle icon */
+}
+
+.navbar-toggler {
+  border-color: #ffffff; /* Border color of the toggle button */
+}
+
+.navbar-collapse {
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.navbar-nav .dropdown-menu {
+  background-color: #343a40; /* Dropdown menu background color */
+  border: none; /* No border for dropdown menu */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #ffffff; /* Dropdown item text color */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #4e5459; /* Hover background color for dropdown items */
+}
+
+.form-control {
+  border-radius: 5px; /* Form control border radius */
+  margin-right: 10px; /* Right margin for form controls */
+}
